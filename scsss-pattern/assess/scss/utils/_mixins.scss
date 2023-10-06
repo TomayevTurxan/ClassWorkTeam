@@ -1,0 +1,10 @@
+@mixin nav-responsive{
+    nav {
+        .nav-bar {
+          display: none;
+        }
+        .mobile-menu {
+          display: block;
+        }
+      }
+}
