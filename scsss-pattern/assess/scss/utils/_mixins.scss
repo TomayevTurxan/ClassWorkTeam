@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin nav-responsive{
     nav {
         .nav-bar {
@@ -8,3 +9,14 @@
         }
       }
 }
+=======
+@mixin btn{
+    height: 50px;
+    width: 125px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+>>>>>>> b692e9959f5f6607a6f6c2ec3f61c39ab2210ab6

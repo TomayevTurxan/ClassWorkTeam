@@ -1,0 +1,17 @@
+@media only screen and (max-width: 640px) {
+    .head-text {
+        // // @extend %head-text-responsive;
+    }
+
+    #head {
+        .head-text {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:768px) {}
+
+@media only screen and (min-width:768px) and (max-width:998px) {}
+
+@media only screen and (min-width:998px) and (max-width:1400px) {}
