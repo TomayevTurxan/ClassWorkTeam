@@ -1,0 +1,50 @@
+#head {
+    background-color: #212529;
+
+    .head-text {
+        @extend %margin-center;
+        padding: 5rem 0rem;
+        h1 {
+            color: white;
+            font-size: 3rem;
+        }
+
+        p {
+            color: #8d8d91;
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin: 30px;
+        }
+    }
+
+    .btn {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        .btn-primary {
+            margin-right: 2rem;
+            button {
+                background-color: hsl(216, 98%, 52%);
+            }
+        }
+
+        .btn-secondary {
+            border: 1px solid white;
+            border-radius: 10px;
+            button {
+                background-color: #212529;
+                transition: .5s;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+
+        button {
+            @include btn;
+        }
+    }
+
+
+}
